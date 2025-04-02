@@ -45,6 +45,8 @@ return {
         spell = false, -- sets vim.opt.spell
         signcolumn = "yes", -- sets vim.opt.signcolumn to yes
         wrap = false, -- sets vim.opt.wrap
+        shiftwidth = 4, -- the number of spaces inserted for each indentation
+        tabstop = 4, -- insert 4 spaces for a tab-- sets vim.opt.wrap
       },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)
